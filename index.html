@@ -10,13 +10,18 @@
 		 one button (trigger)
 		 result element
 		 plus, and equals icon
+		 interaction points= input 1, input 2, =
+		 expected outcome = value
+
+		 grab the values from each of the input fields, when the user clicks the equal button. 
+		 We will add the two values together and display them in the result area.
 	-->
 
-	<input type="text" placeholder="enter a number">
+	<input id="input1" type="text" placeholder="enter a number">
 	<p>+</p> <!-- plus sign -->
-	<input type="text" placeholder="enter a number">
-	<p>=</p> <!-- equal sign -->
-	<p>value</p>
+	<input id="input2" type="text" placeholder="enter a number">
+	<p id="trigger">=</p> <!-- equal sign -->
+	<p id="value">Result</p>
 	<script src="js/cal.js"></script>
 
 </body>
